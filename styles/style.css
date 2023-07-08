@@ -1,0 +1,17 @@
+/* nav section */
+.nav-area{
+    display:flex;
+}
+nav > ul{
+    display:flex;
+}
+nav li {
+    list-style: none;
+    
+}
+nav a {
+    text-decoration: none;
+}
+span{
+    color:#FD6E0A;
+}
