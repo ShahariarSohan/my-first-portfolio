@@ -122,9 +122,9 @@ nav a {
 
 .name-gmail {
     display: flex;
-    margin: auto;
-    column-gap: 50px;
     justify-content: center;
+    column-gap:70px;
+    text-align:center;
 
 }
 
