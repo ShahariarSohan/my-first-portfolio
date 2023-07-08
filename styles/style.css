@@ -130,13 +130,13 @@ nav a {
 
 .box-main {
     display: flex;
-    justify-content: space-between;
-    margin-top: 60px;
+    justify-content:space-evenly;
+    margin-top: 80px;
 }
 
 .box {
-    width: 267px;
-    height: 377px;
+    width: 200px;
+    height: 280px;
     flex-shrink: 0;
     border-radius: 5px;
     background: #FFF;
@@ -144,20 +144,20 @@ nav a {
 }
 
 .icon-img {
-    width: 44px;
-    height: 44px;
+    width: 30px;
+    height: 30px;
     flex-shrink: 0;
-    padding-left: 30px ;
+    margin: 20px 0 0 20px ;
 }
 
 .common-heading {
     color: var(--dark-01, #181818);
     font-family: Open Sans;
-    font-size: 20px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-left:30px;
+    margin-left:20px;
 
     
 }
@@ -165,9 +165,8 @@ nav a {
 .common-para {
     color: var(--dark-03, #757575);
     font-family: Open Sans;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 28px;
-    margin:30px;
+    margin:20px;
 }
