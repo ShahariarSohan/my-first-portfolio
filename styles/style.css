@@ -1,17 +1,49 @@
+/* common styles */
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* nav section */
-.nav-area{
-    display:flex;
+h3 {
+    color: #181818;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
-nav > ul{
-    display:flex;
+
+.nav-area {
+    display: flex;
+    justify-content: space-around;
 }
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
 nav li {
     list-style: none;
-    
+    margin-right: 50px;
+
 }
+
 nav a {
     text-decoration: none;
+    color: #474747;
 }
-span{
-    color:#FD6E0A;
+
+span {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    border:none;
+    background: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    color:#FFF;
+    padding:18px 35px 19px 36px;
+   
 }
