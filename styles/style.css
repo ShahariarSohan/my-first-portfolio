@@ -126,3 +126,7 @@ nav a {
     justify-content: center;
    
 }
+.box-main{
+    display:flex;
+    justify-content: center;
+}
