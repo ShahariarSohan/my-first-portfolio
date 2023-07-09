@@ -123,14 +123,14 @@ nav a {
 .name-gmail {
     display: flex;
     justify-content: center;
-    column-gap:70px;
-    text-align:center;
+    column-gap: 70px;
+    text-align: center;
 
 }
 
 .box-main {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     margin-top: 80px;
 }
 
@@ -140,14 +140,14 @@ nav a {
     flex-shrink: 0;
     border-radius: 5px;
     background: #FFF;
-    box-shadow: 10px 10px 10px  grey;
+    box-shadow: 10px 10px 10px grey;
 }
 
 .icon-img {
     width: 30px;
     height: 30px;
     flex-shrink: 0;
-    margin: 20px 0 0 20px ;
+    margin: 20px 0 0 20px;
 }
 
 .common-heading {
@@ -157,9 +157,9 @@ nav a {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-left:20px;
+    margin-left: 20px;
 
-    
+
 }
 
 .common-para {
@@ -168,5 +168,39 @@ nav a {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    margin:20px;
+    margin: 20px;
+}
+
+.resume-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.resume-box {
+    width: 400px;
+    height: 800px;
+}
+
+.resume-title {
+    color: var(--dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+
+.department-title {
+    color: var(--dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.institution-title {
+    color: var(--dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 600;
+    
 }
