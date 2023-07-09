@@ -221,9 +221,10 @@ button a {
 }
 
 footer {
-    width: 1600px;
+    width: 100%;
     height: 780px;
     background: #FFF8F3;
+    background-repeat: no repeat;
     background-size: cover;
     margin-top: 100px;
     display: flex;
@@ -252,10 +253,9 @@ footer {
 .social-icon {
     margin-left: 25px;
 }
-footer input{
-    width:100%;
-}
+
 .footer-input {
+    width:500px;
     margin-bottom: 2px;
     height: 40px;
     background: #FFF;
@@ -265,6 +265,7 @@ footer input{
 .text-area{
     width:500px;
     border: none;
+    background: #FFF;
 }
 .btn1 {
     margin-top: 20px;
