@@ -45,7 +45,7 @@ nav li {
 
 }
 
- nav a {
+nav a {
     text-decoration: none;
     color: #474747;
 }
@@ -132,7 +132,7 @@ nav li {
     display: flex;
     justify-content: space-evenly;
     margin-top: 80px;
-    
+
 }
 
 .box {
@@ -149,7 +149,7 @@ nav li {
     width: 30px;
     height: 30px;
     flex-shrink: 0;
-   
+
 }
 
 .common-heading {
@@ -159,7 +159,7 @@ nav li {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-   
+
 
 
 }
@@ -170,14 +170,14 @@ nav li {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    
+
 }
 
 .resume-info {
     display: flex;
     justify-content: space-evenly;
     margin-top: 60px;
-    gap:50px;
+    gap: 50px;
 }
 
 .resume-box {
@@ -190,7 +190,7 @@ nav li {
     font-family: Open Sans;
     font-size: 25px;
     font-weight: 700;
-    
+
 }
 
 .department-title {
@@ -198,7 +198,7 @@ nav li {
     font-family: Open Sans;
     font-size: 20px;
     font-weight: 700;
-    
+
 }
 
 .institution-title {
@@ -206,15 +206,55 @@ nav li {
     font-family: Open Sans;
     font-size: 15px;
     font-weight: 600;
-    
+
 }
-.resume-para{
-    text-align:justify;
+
+.resume-para {
+    text-align: justify;
 }
-.btn{
+
+.btn {
     text-align: center;
 }
-button a{
+
+button a {
     text-decoration: none;
-    color:white;
+    color: white;
+}
+
+footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-box {
+    width: 400px
+}
+
+.footerbox-title {
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.footer-para {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.social-icon {
+    margin-left: 25px;
+}
+
+.footer-input {
+    margin-bottom:15px;
+    width:300px;
+    height:30px;
+    background: #FFF;
+    border-radius: 5px;
 }
