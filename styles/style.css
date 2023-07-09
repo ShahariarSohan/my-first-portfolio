@@ -181,7 +181,7 @@ nav li {
 }
 
 .resume-box {
-    width: 400px;
+    width: 500px;
     height: 800px;
 }
 
@@ -194,7 +194,7 @@ nav li {
 }
 
 .department-title {
-    color: var(--dark-02, #474747);
+    color: #474747;
     font-family: Open Sans;
     font-size: 20px;
     font-weight: 700;
@@ -202,11 +202,14 @@ nav li {
 }
 
 .institution-title {
-    color: var(--dark-03, #757575);
+    color: var #757575;
     font-family: Open Sans;
     font-size: 15px;
     font-weight: 600;
     
+}
+.resume-para{
+    text-align:justify;
 }
 .btn{
     text-align: center;
