@@ -302,32 +302,13 @@ button a {
 
 }
 @media screen and (min-width:576px) and (max-width:1000px){
-   
+   .section-para{
+       padding:30px;
+   }
+
 } 
 
 
 
-    /* .box-main,.name-gmail {
-       flex-direction: column;
-    }
-    .box {
-       width:100%;
-        margin: 20px auto;
-    }
-    .section-para {
-        padding: 0  60px;
-        text-align:justify;
-    }
-    .resume-info{
-        grid-template-columns: repeat(1,1fr);
+  
     
-    }
-    .footer-container{
-        flex-direction:column;
-    }
-    .footer-input,textarea{
-        width:100%;
-    } */
-    
-    
-}
