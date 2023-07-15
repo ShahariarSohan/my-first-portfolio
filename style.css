@@ -217,17 +217,19 @@ button a {
 }
 /* footer section */
 .footer {
-    width: 100%;
     height: 780px;
     background: #FFF8F3;
     background-repeat: no repeat;
     background-size: cover;
     margin-top: 100px;
-    display: flex;
-    justify-content: space-around;
     
 }
-
+.footer-container{
+    width:80%;
+    display: flex;
+    margin:100px auto;
+   
+}
 .footer-box {
     width:100%;
 }
@@ -252,15 +254,15 @@ button a {
 }
 
 .footer-input {
-    width:500px;
-    margin-bottom: 2px;
+    width:100%;
+    margin-bottom: 4px;
     height: 40px;
     background: #FFF;
     border-radius: 5px;
     border:none;
 }
 .text-area{
-    width:500px;
+    width:100%;
     border: none;
     background: #FFF;
 }
@@ -287,12 +289,13 @@ button a {
         margin: 30px 0;
         text-align:justify;
     }
-    .footer{
-        width:100%;
+    .footer-container{
         flex-direction:column;
-        align-items: center;
-        padding-left:50px;
     }
+    .footer-input,textarea{
+        width:100%;
+    }
+    
 
 }
 @media screen and (min-width:576px) and (max-width:1000px) {
@@ -311,8 +314,12 @@ button a {
         grid-template-columns: repeat(1,1fr);
     
     }
-    .footer{
+    .footer-container{
         flex-direction:column;
-        padding-left:50px;
     }
+    .footer-input,textarea{
+        width:100%;
+    }
+    
+    
 }
