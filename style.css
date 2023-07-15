@@ -279,51 +279,50 @@ button a {
 }
 
 @media screen and (max-width:576px) {
+    h3{
+        margin:60px 0 20px 0;
+    }
+    .heading4{
+        margin:0px;
+    }
+    .heading-title {
+        font-size:45px;
+    }
     .header{
         background-image: none;
     }
-    h3,ul{
-        margin-left:0px;
-    }
     .nav-area{
         margin:0px;
+    }
+    .nav-area li{
+        padding:10px 0;
     }
     .banner {
         flex-direction: column;
         padding: 10px 0;
     }
-
-    .heading4 {
-        font-weight: 600;
-    }
-
-    .heading-title {
-        font-size: 45px;
-    }
-
-    .profile-img {
+    .profile-img,.nav-area li {
         width: 100%;
     }
-
-    #btn-first,
-    #btn-second {
-       margin-bottom:10px;
-    }
-
     .box-main,
     .name-gmail,
     .nav-area,
     .nav-area>ul {
         flex-direction: column;
     }
-
-    .resume-info {
-        grid-template-columns: repeat(1, 1fr);
+    #btn-first,
+    #btn-second {
+       margin-bottom:10px;
     }
-
     .box {
         width: 70%;
         margin: 20px auto;
+    }
+    .resume-info {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .btn{
+        padding-top: 20px;
     }
 
     .section-para {
@@ -336,10 +335,7 @@ button a {
         width: 100%;
     }
 
-    .btn {
-        padding-top: 20px;
-    }
-
+   
     .footer-container {
         flex-direction: column;
         margin: 50px auto;
