@@ -1,5 +1,6 @@
 /* common styles */
 * {
+    
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -53,9 +54,9 @@ nav a {
 /* header area */
 .header {
     background: #FFF8F3;
-    background-image: url("../images/header_bg.png"),url("../images/developer.png");
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right,top left;
+    background-position: bottom right, top left;
 
 }
 
@@ -66,6 +67,7 @@ nav a {
     align-items: center;
     padding: 0 0 0 200px;
 }
+
 .profile-img {
     width: 650px;
 }
@@ -85,6 +87,7 @@ nav a {
 .banner-para {
     margin: 0 0 25px 0;
 }
+
 /* about section */
 .about {
     padding: 30px;
@@ -108,7 +111,7 @@ nav a {
 
 .section-para {
 
-    padding:30px 200px;
+    padding: 30px 200px;
     color: #757575;
     text-align: center;
     font-family: Open Sans;
@@ -120,7 +123,7 @@ nav a {
 .name-gmail {
     display: flex;
     justify-content: center;
-    gap:30px;
+    gap: 30px;
     text-align: center;
 
 }
@@ -128,9 +131,9 @@ nav a {
 .box-main {
     display: flex;
     justify-content: space-around;
-    margin-top: 80px ;
-    margin:auto;
-    width:80%;
+    margin-top: 80px;
+    margin: auto;
+    width: 80%;
 
 }
 
@@ -166,16 +169,17 @@ nav a {
     font-weight: 400;
 
 }
+
 /* resume section */
 .resume-info {
-    width:80%;
-    margin:auto;
+    width: 80%;
+    margin: auto;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     margin-top: 30px;
     column-gap: 30px;
-    
-    
+
+
 }
 
 .resume-title {
@@ -213,6 +217,7 @@ button a {
     text-decoration: none;
     color: white;
 }
+
 /* footer section */
 .footer {
     height: 780px;
@@ -220,17 +225,19 @@ button a {
     background-repeat: no repeat;
     background-size: cover;
     margin-top: 100px;
-    
+
 }
-.footer-container{
-    width:80%;
+
+.footer-container {
+    width: 80%;
     display: flex;
     justify-content: space-around;
-    margin:100px auto;
-   
+    margin: 100px auto;
+
 }
+
 .footer-box {
-    width:100%;
+    width: 100%;
 }
 
 .footerbox-title {
@@ -253,62 +260,98 @@ button a {
 }
 
 .footer-input {
-    width:100%;
+    width: 100%;
     margin-bottom: 4px;
     height: 40px;
     background: #FFF;
     border-radius: 5px;
-    border:none;
+    border: none;
 }
-.text-area{
-    width:100%;
+
+.text-area {
+    width: 100%;
     border: none;
     background: #FFF;
 }
+
 .btn1 {
     margin-top: 20px;
 }
-.hide{
-    display:none;
-}
-@media screen and (max-width:576px){ 
-    
-    .box-main,.name-gmail{
-       flex-direction: column;
+
+@media screen and (max-width:576px) {
+    .header{
+        background-image: none;
     }
-    .resume-info{
-        grid-template-columns: repeat(1,1fr);
+    h3,ul{
+        margin-left:0px;
     }
+    .nav-area{
+        margin:0px;
+    }
+    .banner {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .heading4 {
+        font-weight: 600;
+    }
+
+    .heading-title {
+        font-size: 45px;
+    }
+
+    .profile-img {
+        width: 100%;
+    }
+
+    #btn-first,
+    #btn-second {
+       margin-bottom:10px;
+    }
+
+    .box-main,
+    .name-gmail,
+    .nav-area,
+    .nav-area>ul {
+        flex-direction: column;
+    }
+
+    .resume-info {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
     .box {
-       width:70%;
+        width: 70%;
         margin: 20px auto;
     }
+
     .section-para {
-        padding:30px;
-        text-align:justify;
+        padding: 30px;
+        text-align: justify;
     }
-    .footer-input,textarea{
-        width:100%;
+
+    .footer-input,
+    textarea {
+        width: 100%;
     }
-    .btn{
-        padding-top:20px;
+
+    .btn {
+        padding-top: 20px;
     }
-    .footer-container{
+
+    .footer-container {
         flex-direction: column;
-        margin:50px auto;
-       
+        margin: 50px auto;
+
     }
-    
+
 
 }
-@media screen and (min-width:576px) and (max-width:1000px){
-   .section-para{
-       padding:30px;
-   }
 
-} 
+@media screen and (min-width:576px) and (max-width:1000px) {
+    .section-para {
+        padding: 30px;
+    }
 
-
-
-  
-    
+}
